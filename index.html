@@ -41,10 +41,9 @@
 
       <div class="section-heading">
         <div>
-          <p class="eyebrow">Selected work</p>
+          <p class="eyebrow">Selected publications</p>
           <h2 id="publications">Publications</h2>
         </div>
-        <span class="section-count">03 papers</span>
       </div>
 
       <section class="publications" aria-labelledby="publications">
@@ -53,10 +52,10 @@
             <img src="assets/push-pull.png" alt="Visual comparison of concept erasure methods across portraits, paintings, animated characters, and cats" />
           </div>
           <div class="publication-content">
-            <div class="publication-meta"><span>ECCV 2026</span><span>Concept erasure</span></div>
+            <div class="publication-meta"><span>ECCV 2026</span><span>Unlearning, Generative</span></div>
             <h3>Push–Pull Attentional Anchoring for Diffusion Concept Erasure</h3>
             <p class="authors"><span class="author-highlight">N. Chatthee</span>, Tagon Sompong, Ekapol Chuangsuwanich, Supasorn Suwajanakorn</p>
-            <p class="description">A controllable approach to erasing visual concepts from diffusion models while preserving the surrounding identity and visual structure. The push–pull formulation anchors attention to guide what should disappear and what should remain.</p>
+            <p class="description">Introduces a bounded push–pull objective in cross-attention space that achieves a state-of-the-art erasure–preservation trade-off by suppressing target concepts while limiting collateral damage to related concepts. For example, the method effectively erases “Barack Obama” while preserving “Will Smith.” It additionally provides controllable erasure strength and generalizes across architectures, including SD 1.4 and FLUX.</p>
             <div class="card-links">
               <a href="https://push-pull-concept-eraser.github.io/" target="_blank" rel="noreferrer">Project page <span aria-hidden="true">↗</span></a>
               <span class="unpublished">Paper &amp; code forthcoming</span>
@@ -69,10 +68,10 @@
             <img src="assets/zero-guidance.png" alt="Snake scene segmented into labeled regions including desk, monitor, universe, great python, keyboard, laptop, post, bottle, and new book" />
           </div>
           <div class="publication-content">
-            <div class="publication-meta"><span>ICCV 2023</span><span>Computer vision</span></div>
+            <div class="publication-meta"><span>ICCV 2023</span><span>Interpretation</span></div>
             <h3>Zero-guidance Segmentation Using Zero Segment Labels</h3>
             <p class="authors">Pitchaporn Rewatbowornwong*, <span class="author-highlight">N. Chatthee*</span>, Ekapol Chuangsuwanich, Supasorn Suwajanakorn</p>
-            <p class="description">We introduce zero-guidance segmentation: discovering semantic segments and labeling them in natural language without text queries, predefined classes, fine-tuning, or segmentation datasets. The method combines DINO, CLIP, attention masking, and semantic merging.</p>
+            <p class="description">Introduces zero-guidance segmentation for discovering and labeling semantic image regions without prompts, annotations, or fine-tuning. The method uses attention masking to balance local and global contextual information.</p>
             <div class="card-links">
               <a href="https://arxiv.org/abs/2303.13396" target="_blank" rel="noreferrer">Paper <span aria-hidden="true">↗</span></a>
               <a href="https://zero-guide-seg.github.io/" target="_blank" rel="noreferrer">Project <span aria-hidden="true">↗</span></a>
@@ -87,10 +86,10 @@
             <img src="assets/diffusion-autoencoders.png" alt="Diffusion autoencoder diagram showing a semantic encoder, latent DDIM, stochastic encoder, decoder, and reconstructed images" />
           </div>
           <div class="publication-content">
-            <div class="publication-meta"><span>CVPR 2022 · Oral</span><span>Representation learning</span></div>
+            <div class="publication-meta"><span>CVPR 2022 · Oral</span><span>Generative, Learning</span></div>
             <h3>Diffusion Autoencoders: Toward a Meaningful and Decodable Representation</h3>
             <p class="authors">Konpat Preechakul, <span class="author-highlight">N. Chatthee</span>, Suttisak Wizadwongsa, Supasorn Suwajanakorn</p>
-            <p class="description">Diffusion autoencoders encode an image into two complementary latent codes: a meaningful semantic code and a stochastic code for fine detail. Together they enable near-exact reconstruction, real-image manipulation, interpolation, and few-shot conditional sampling.</p>
+            <p class="description">Introduces a diffusion autoencoder that factorizes an image into a semantic code produced by a learnable encoder and a stochastic code modeled by a conditional diffusion model. This representation enables near-exact reconstruction, linear semantic manipulation, and downstream representation learning.</p>
             <div class="card-links">
               <a href="https://arxiv.org/abs/2206.08892" target="_blank" rel="noreferrer">Paper <span aria-hidden="true">↗</span></a>
               <a href="https://diff-ae.github.io/" target="_blank" rel="noreferrer">Project <span aria-hidden="true">↗</span></a>
