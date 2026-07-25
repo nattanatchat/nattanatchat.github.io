@@ -7,9 +7,10 @@
   --coral: #df7468;
   --blue: #4c83a9;
   --yellow: #c9a638;
-  --serif: "Newsreader", Georgia, serif;
-  --sans: "DM Sans", Arial, sans-serif;
-  --mono: "DM Mono", monospace;
+  --abadi: "Abadi", "Abadi MT Condensed Light", "Trebuchet MS", Arial, sans-serif;
+  --serif: var(--abadi);
+  --sans: var(--abadi);
+  --mono: var(--abadi);
 }
 
 * { box-sizing: border-box; }
