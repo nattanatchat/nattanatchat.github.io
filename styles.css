@@ -1,6 +1,6 @@
 :root {
-  --paper: #f7f4ee;
-  --paper-deep: #eee9df;
+  --paper: #ffffff;
+  --paper-deep: #f5f5f3;
   --ink: #20221f;
   --muted: #686862;
   --line: #d8d2c6;
@@ -26,7 +26,7 @@ a { color: inherit; }
 .eyebrow, .publication-meta, .section-count { color: var(--muted); font-family: var(--mono); font-size: .72rem; letter-spacing: .06em; text-transform: uppercase; }
 .eyebrow { margin: 0 0 1rem; }
 h1, h2, h3, p { margin-top: 0; }
-h1 { max-width: 800px; margin-bottom: 1.1rem; font-family: var(--serif); font-size: clamp(3rem, 7vw, 5.75rem); font-weight: 600; letter-spacing: -.045em; line-height: .92; }
+h1 { max-width: 100%; margin-bottom: 1.1rem; font-family: var(--serif); font-size: clamp(3rem, 5.8vw, 4.6rem); font-weight: 600; letter-spacing: -.045em; line-height: .92; white-space: nowrap; }
 .bio { max-width: 760px; margin-bottom: 1.7rem; color: #474943; font-size: clamp(1.15rem, 2vw, 1.48rem); line-height: 1.55; }
 .social-links { display: flex; gap: 1.25rem; flex-wrap: wrap; }
 .social-links a, .card-links a { text-decoration: none; }
@@ -59,6 +59,7 @@ footer { display: flex; justify-content: space-between; gap: 1rem; padding: 5rem
   .site-shell { width: min(100% - 2rem, 680px); }
   .intro { grid-template-columns: 1fr; gap: 2rem; padding: 4rem 0; }
   .portrait-frame { width: 140px; height: 140px; }
+  h1 { white-space: normal; font-size: clamp(2.8rem, 12vw, 4.6rem); }
   .publication-card { grid-template-columns: 1fr; }
   .publication-visual { min-height: 220px; }
   .publication-content { padding: 1.25rem 0 1.5rem; }
