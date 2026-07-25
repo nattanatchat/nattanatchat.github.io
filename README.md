@@ -1,6 +1,6 @@
 # Nattanat Chatthee — Research Website
 
-Static personal research website for [nattanat.github.io](https://nattanat.github.io/).
+Static personal research website for [nattanatchat.github.io](https://nattanatchat.github.io/).
 
 ## Local preview
 
@@ -14,7 +14,7 @@ Then open <http://localhost:8000>.
 
 ## Publishing
 
-The repository is intended to be `nattanat/nattanat.github.io`. Push the contents of this directory to the repository's default branch and enable GitHub Pages from that branch in the repository settings. The site will then be available at `https://nattanat.github.io/`.
+The repository is `nattanatchat/nattanatchat.github.io`. GitHub Pages is configured to publish from the `main` branch, and the site is available at `https://nattanatchat.github.io/`.
 
 ## Assets
 
